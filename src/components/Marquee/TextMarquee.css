@@ -1,0 +1,33 @@
+.marquee-container {
+  height: 50px;
+  width: 100%;
+  background: rgba(17, 14, 17, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(
+    10px
+  ); /* Blur effect for content behind the container */
+  -webkit-backdrop-filter: blur(10px);
+  margin-bottom: 40px;
+  position: absolute;
+  left: 0;
+  margin-top: -40px;
+}
+
+.marquee-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 19px;
+}
+.marquee-details > p,
+h5 {
+  color: #fff;
+  font-family: "Sora";
+  font-size: 15px;
+}
+.marquee-details > .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+}

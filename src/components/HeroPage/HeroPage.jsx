@@ -3,6 +3,7 @@ import heropageBlend from "../../assets/images/heropage-blend.svg";
 import heropageButon from "../../assets/images/Buttom.svg";
 import heropageCatBlend from "../../assets/images/hero-page-cat.svg";
 import "./HeroPage.css";
+import TextMarquee from "../Marquee/TextMarquee";
 const HeroPage = () => {
   return (
     <div className="hero-page-container">
@@ -34,6 +35,7 @@ const HeroPage = () => {
           </div>
         </div>
       </div>
+      <TextMarquee />
     </div>
   );
 };
