@@ -1,5 +1,6 @@
 import React from "react";
 import heropageBlend from "../../assets/images/heropage-blend.svg";
+import heropageButon from "../../assets/images/Buttom.svg";
 import heropageCatBlend from "../../assets/images/hero-page-cat.svg";
 import "./HeroPage.css";
 const HeroPage = () => {
@@ -14,6 +15,9 @@ const HeroPage = () => {
             Turn Every Tap into Rewards—Earn Crypto, Points, and Exclusive
             Perks!
           </p>
+          <button className="hero-page-button">
+            <img src={heropageButon} alt="" />
+          </button>
         </div>
         <div className="hero-page-illustration">
           <div className="hero-page-images">
