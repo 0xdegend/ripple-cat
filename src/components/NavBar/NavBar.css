@@ -1,0 +1,34 @@
+.navbar-container {
+  padding: 50px;
+}
+.navbar-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links ul {
+  display: flex;
+  gap: 60px;
+}
+
+.navbar-links ul li {
+  list-style: none;
+}
+.navbar-links ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+}
+.navbar-socials ul{
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-socials ul li{
+    list-style: none;
+}
+.navbar-socials ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
