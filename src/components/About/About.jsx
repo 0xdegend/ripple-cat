@@ -8,10 +8,8 @@ const About = () => {
         <div className="about-text">
           <h2>#About RippleCat</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam,
-            velit inventore. Molestias repellat ex sequi eius qui, omnis maxime
-            corporis quaerat necessitatibus consequuntur distinctio cupiditate
-            veniam! Velit ab delectus temporibus.
+          Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac diam. Sollicitudin elit imperdiet urna egestas dignissim. Ut purus ipsum imperdiet nulla aliquet neque. Donec et molestie consequat id. Nulla turpis sed blandit vehicula fringilla accumsan tellus facilisis. Id nam erat nam id eget sed facilisi augue. Ipsum integer tortor amet dictum. Laoreet viverra.
+          Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac diam. Sollicitudin elit imperdiet urna egestas dignissim. Ut purus ipsum imperdiet nulla aliquet neque. Donec et molestie consequat id. Nulla turpis sed blandit vehicula fringilla accumsan tellus facilisis. Id nam erat nam id eget sed facilisi augue. Ipsum integer tortor amet dictum. Laoreet viverra.Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac diam. Sollicitudin elit imperdiet urna egestas dignissim. Ut purus ipsum imperdiet nulla aliquet neque. Donec et molestie consequat id. Nulla turpis sed blandit vehicula fringilla accumsan tellus facilisis. Id nam erat nam id eget sed facilisi augue. Ipsum integer tortor amet dictum. Laoreet viverra.
           </p>
         </div>
         <div className="about-illustration">
