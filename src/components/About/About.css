@@ -1,0 +1,23 @@
+.about-container {
+  padding: 50px;
+}
+.about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  width: 40%;
+}
+.about-text > h2 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.about-text > p {
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+}
