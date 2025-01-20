@@ -1,0 +1,97 @@
+.how-it-works-container {
+  padding: 50px;
+  position: relative; /* Ensure proper positioning for pseudo-element */
+  background: url("../../assets/images/heropage-grid.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.how-it-works-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 14, 17, 0.82); /* Adjust color and opacity */
+  z-index: -1; /* Place below the content */
+}
+
+.how-it-works-details {
+  display: flex;
+  align-items: center;
+}
+
+.how-it-works-illustration {
+  width: 70%;
+}
+
+.how-it-works-illustration > img {
+  width: 100%;
+  left: -55%;
+  position: relative;
+}
+.how-it-works-text {
+  width: 70%;
+  margin-left: -20%;
+}
+
+.how-it-works-main-text > h3 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.pointers-texts {
+  margin-top: 40px;
+}
+
+.pointers-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.pointer-number {
+  height: 85px;
+  width: 90px;
+  background: rgba(27, 21, 26, 0.54);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid #b471503b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pointer-main-number > h5 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.pointer-main-text > h5 {
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.pointer-main-text > p {
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  margin-bottom: 5px;
+}

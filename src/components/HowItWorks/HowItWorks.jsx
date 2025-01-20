@@ -1,5 +1,6 @@
 import React from "react";
 import rippleCatIllustration from "../../assets/images/how-it-works-illustration.png";
+import heropageButon from "../../assets/images/Buttom.svg";
 import "./HowItWorks.css";
 const HowItWorks = () => {
   return (
@@ -9,11 +10,15 @@ const HowItWorks = () => {
           <img src={rippleCatIllustration} alt="" />
         </div>
         <div className="how-it-works-text">
-          <h3>#How It Works</h3>
+          <div className="how-it-works-main-text">
+            <h3>#How It Works:</h3>
+          </div>
           <div className="pointers-texts">
             <div className="pointers-text">
               <div className="pointer-number">
-                <h5>01</h5>
+                <div className="pointer-main-number">
+                  <h5>01</h5>
+                </div>
               </div>
               <div className="pointer-main-text">
                 <h5>Join the Game</h5>
@@ -26,7 +31,9 @@ const HowItWorks = () => {
 
             <div className="pointers-text">
               <div className="pointer-number">
-                <h5>02</h5>
+                <div className="pointer-main-number">
+                  <h5>02</h5>
+                </div>
               </div>
               <div className="pointer-main-text">
                 <h5>Tap, Play & Earn Points</h5>
@@ -39,7 +46,9 @@ const HowItWorks = () => {
 
             <div className="pointers-text">
               <div className="pointer-number">
-                <h5>03</h5>
+                <div className="pointer-main-number">
+                  <h5>03</h5>
+                </div>
               </div>
               <div className="pointer-main-text">
                 <h5>Earn Rewards</h5>
@@ -48,6 +57,9 @@ const HowItWorks = () => {
                 </p>
               </div>
             </div>
+            <button className="hero-page-button">
+              <img src={heropageButon} alt="" />
+            </button>
           </div>
         </div>
       </div>
