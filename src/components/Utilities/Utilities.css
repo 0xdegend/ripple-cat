@@ -1,0 +1,15 @@
+.utilities-container {
+  padding: 50px;
+}
+
+.utilities-main-text > h2 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
