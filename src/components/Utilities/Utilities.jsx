@@ -17,7 +17,9 @@ const Utilities = () => {
               <div>
                 <img src={gigaBot} alt="" />
               </div>
-              <h5>GIGA BOT</h5>
+              <div className="utilities-main-text">
+                <h5>GIGA BOT</h5>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac
                 diam. Sollicitudin elit imperdiet urna egestas dignissim.Lorem
@@ -28,7 +30,10 @@ const Utilities = () => {
               <div>
                 <img src={gigaStake} alt="" />
               </div>
-              <h5>GIGA STAKE</h5>
+              <div className="utilities-main-text">
+                <h5>GIGA STAKE</h5>
+              </div>
+
               <p>
                 Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac
                 diam. Sollicitudin elit imperdiet urna egestas dignissim.Lorem
@@ -39,7 +44,10 @@ const Utilities = () => {
               <div>
                 <img src={gigaWallet} alt="" />
               </div>
-              <h5>GIGA WALLET</h5>
+              <div className="utilities-main-text">
+                <h5>GIGA WALLET</h5>
+              </div>
+
               <p>
                 Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac
                 diam. Sollicitudin elit imperdiet urna egestas dignissim.Lorem
@@ -50,7 +58,9 @@ const Utilities = () => {
               <div>
                 <img src={gigaMetaVerse} alt="" />
               </div>
-              <h5>GIGA METAVERSE</h5>
+              <div className="utilities-main-text">
+                <h5>GIGA METAVERSE</h5>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac
                 diam. Sollicitudin elit imperdiet urna egestas dignissim.Lorem

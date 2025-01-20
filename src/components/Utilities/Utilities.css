@@ -1,5 +1,30 @@
 .utilities-container {
   padding: 50px;
+  position: relative; /* Ensure proper positioning for pseudo-element */
+  background: url("../../assets/images/heropage-grid.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.utilities-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 14, 17, 0.82); /* Adjust color and opacity */
+  z-index: -1; /* Place below the content */
+}
+
+.utilities-wrapper {
+  background: #171216;
+  padding: 50px;
+  width: 90%;
+  border-radius: 15px;
+  border: 1px solid #b471503b;
 }
 
 .utilities-main-text > h2 {
@@ -12,4 +37,46 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+.utilities-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.utilities-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.utilities-list {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.utilities-main-text > h5 {
+  margin-top: 10px;
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background: linear-gradient(to right, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.utilities-list > p {
+  color: #fff;
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: "Sora", sans-serif;
 }
