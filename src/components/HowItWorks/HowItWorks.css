@@ -71,6 +71,9 @@
   justify-content: center;
   align-items: center;
 }
+.pointer-main-text {
+  width: 75%;
+}
 .pointer-main-number > h5 {
   color: #fef42e;
   font-family: "Sora", sans-serif;
