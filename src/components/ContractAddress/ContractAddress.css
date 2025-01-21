@@ -1,3 +1,7 @@
+.contract-container {
+  margin-top: -100px;
+}
+
 .contract-details {
   display: flex;
   justify-content: center;
@@ -32,6 +36,9 @@
 .contract-button > button {
   background: none;
   border: none;
+}
+.contract-button > button:hover {
+  cursor: pointer;
 }
 .contract-button > button > img {
   width: 140px;
