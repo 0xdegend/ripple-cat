@@ -1,0 +1,39 @@
+.contract-details {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.contract-input {
+  display: flex;
+  align-items: center;
+}
+.contract-input > input {
+  width: 490px;
+  padding: 10px 0px 10px 180px;
+  height: 40px;
+  border: 1px solid #b471503b;
+  background: transparent;
+  border-radius: 15px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 17px;
+}
+.contract-input {
+  position: relative;
+}
+.contract-input > h5 {
+  position: absolute;
+  left: 15px;
+  color: #fbe92d;
+  font-size: 17px;
+}
+
+.contract-button > button {
+  background: none;
+  border: none;
+}
+.contract-button > button > img {
+  width: 140px;
+  margin-top: 10px;
+}

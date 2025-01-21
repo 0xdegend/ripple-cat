@@ -1,6 +1,7 @@
 import React from "react";
 import howToBuyIllustration from "../../assets/images/how-to-buy-illustration.png";
 import "./HowToBuy.css";
+import ContractAddress from "../ContractAddress/ContractAddress";
 const HowToBuy = () => {
   return (
     <div className="how-to-buy-container">
@@ -87,6 +88,7 @@ const HowToBuy = () => {
           </div>
         </div>
       </div>
+      <ContractAddress/>
     </div>
   );
 };
