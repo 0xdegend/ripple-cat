@@ -1,5 +1,12 @@
 .footer-container {
   padding: 50px;
+  position: relative;
+}
+.footer-blend {
+  position: absolute;
+  right: -50%;
+  bottom: -10px;
+  z-index: -1;
 }
 .footer-details {
   display: flex;
@@ -44,6 +51,11 @@
   padding: 12px 10px;
   background: #110e11;
   border: none;
+  color: #fff;
+  font-family: "Sora", sans-serif;
+}
+.footer-input > input:focus {
+  outline: none;
 }
 .footer-input > input::placeholder {
   color: #9f9fa0;

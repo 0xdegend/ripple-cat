@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import footerIllustration from "../../assets/images/footer-illustration.png";
 import subscribeButton from "../../assets/images/subscribe-button.svg";
+import footerBlend from "../../assets/images/footer-blend.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
@@ -41,6 +42,9 @@ const Footer = () => {
             <p>© {currentYear} RIPPLECAT. All rights reserved.</p>
           </div>
         </div>
+      </div>
+      <div className="footer-blend">
+        <img src={footerBlend} alt="" />
       </div>
     </div>
   );
