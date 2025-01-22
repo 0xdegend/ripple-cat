@@ -1,9 +1,6 @@
 .faq-container {
   padding: 50px;
 }
-.faq-details {
-  padding: 10px;
-}
 
 .faq-main-text > h3 {
   color: #fef42e;
@@ -50,7 +47,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 15px;
-  border: 1px solid #b471503b;
+  border: 1px solid #b471503b !important;
   margin-bottom: 30px;
 }
 
