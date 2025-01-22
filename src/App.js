@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About/About";
 import ContractAddress from "./components/ContractAddress/ContractAddress";
 import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/Footer/Footer";
 import HeroPage from "./components/HeroPage/HeroPage";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import HowToBuy from "./components/HowToBuy/HowToBuy";
@@ -20,6 +21,7 @@ function App() {
       <HowToBuy />
       <Tokenomics />
       <FAQ />
+      <Footer />
     </>
   );
 }

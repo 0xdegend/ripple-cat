@@ -1,0 +1,17 @@
+.footer-container {
+  padding: 50px;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background: rgba(27, 21, 26, 0.54);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid #b471503b;
+}
+.footer-illustration > img {
+  width: 80%;
+}
