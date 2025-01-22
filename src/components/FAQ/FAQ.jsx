@@ -15,7 +15,7 @@ const FAQ = () => {
             items={items}
             bordered={false}
             expandIconPosition={"end"}
-            defaultActiveKey={["0"]}
+            defaultActiveKey={["1"]}
             accordion
             expandIcon={({ isActive }) =>
               isActive ? (

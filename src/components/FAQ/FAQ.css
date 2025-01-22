@@ -1,6 +1,9 @@
 .faq-container {
   padding: 50px;
 }
+.faq-details {
+  padding: 10px;
+}
 
 .faq-main-text > h3 {
   color: #fef42e;
@@ -19,20 +22,27 @@
 .collapse-container .ant-collapse-header-text {
   font-family: "Sora", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  color: #fff;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .collapse-answer {
+  width: 80%;
   color: #fff;
   text-align: left;
   font-family: "Sora";
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 10px;
+  font-weight: 300;
 }
 
 .collapse-icon {
-  color: #fff !important;
-  font-size: 15px !important;
+  color: #ffda1f !important;
+  font-size: 20px !important;
+  margin-top: 10px !important;
 }
 
 .collapse-container .ant-collapse-item {

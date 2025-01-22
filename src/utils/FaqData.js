@@ -1,18 +1,24 @@
-const text = "This is some text for the panels.";
+const text =
+  "Lorem ipsum dolor sit amet consectetur. Consequat risus nibh hac diam. Sollicitudin elit imperdiet urna egestas dignissim.Lorem ipsum dolor sit amet consectetur. ";
 export const items = [
   {
     key: "1",
-    label: "This is panel header 1",
+    label: "What is RippleCat?",
     children: <p className="collapse-answer">{text}</p>,
   },
   {
     key: "2",
-    label: "This is panel header 2",
-    children: <p>{text}</p>,
+    label: "What is RippleCat?",
+    children: <p className="collapse-answer">{text}</p>,
   },
   {
     key: "3",
-    label: "This is panel header 3",
-    children: <p>{text}</p>,
+    label: "What is RippleCat?",
+    children: <p className="collapse-answer">{text}</p>,
+  },
+  {
+    key: "4",
+    label: "What is RippleCat?",
+    children: <p className="collapse-answer">{text}</p>,
   },
 ];
