@@ -5,6 +5,7 @@ import HeroPage from "./components/HeroPage/HeroPage";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import HowToBuy from "./components/HowToBuy/HowToBuy";
 import NavBar from "./components/NavBar/NavBar";
+import Tokenomics from "./components/Tokenomics/Tokenomics";
 import Utilities from "./components/Utilities/Utilities";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <HowItWorks />
       <Utilities />
       <HowToBuy />
+      <Tokenomics />
     </>
   );
 }
