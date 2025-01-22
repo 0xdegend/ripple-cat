@@ -6,6 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="footer-container">
       <div className="footer-details">
@@ -37,7 +38,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-copyright">
-            <p>© 2025 RIPPLECAT. All rights reserved.</p>
+            <p>© {currentYear} RIPPLECAT. All rights reserved.</p>
           </div>
         </div>
       </div>

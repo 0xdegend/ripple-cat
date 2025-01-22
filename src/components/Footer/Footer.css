@@ -15,3 +15,67 @@
 .footer-illustration > img {
   width: 80%;
 }
+
+.footer-main-text > h4 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.footer-text-container > h5 {
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.footer-input {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.footer-input > input {
+  width: 50%;
+  padding: 12px 10px;
+  background: #110e11;
+  border: none;
+}
+.footer-input > input::placeholder {
+  color: #9f9fa0;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+}
+.footer-input > button {
+  border: none;
+  background: none;
+}
+.footer-input > button:hover {
+  cursor: pointer;
+}
+.footer-input > button > img {
+  width: 150px;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.footer-socials {
+  margin-top: 20px;
+}
+.footer-socials > a {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 40px;
+}
+.footer-copyright {
+  margin-top: 30px;
+}
+.footer-copyright p {
+  color: #fff;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+}
