@@ -49,3 +49,23 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+  .how-to-buy-container {
+    padding: 20px;
+  }
+  .how-to-buy-details {
+    flex-direction: column-reverse;
+  }
+  .how-to-buy-text {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .how-to-buy-main-text > h3 {
+    font-size: 30px;
+  }
+  .how-to-buy-illustration > img {
+    width: 100%;
+    left: 0%;
+  }
+}

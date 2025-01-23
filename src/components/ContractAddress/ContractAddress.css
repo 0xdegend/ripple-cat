@@ -44,3 +44,15 @@
   width: 140px;
   margin-top: 10px;
 }
+
+@media (max-width: 767px) {
+  .contract-input > input {
+    width: 240px;
+  }
+  .contract-container {
+    margin-top: -20px;
+  }
+  .contract-details {
+    flex-direction: column;
+  }
+}
