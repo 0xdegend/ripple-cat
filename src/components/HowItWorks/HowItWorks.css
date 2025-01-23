@@ -98,3 +98,31 @@
   font-size: 12px;
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .how-it-works-container {
+    padding: 20px;
+  }
+  .how-it-works-main-text > h3 {
+    font-size: 25px;
+  }
+  .how-it-works-details {
+    flex-direction: column-reverse;
+  }
+  .how-it-works-illustration > img {
+    left: 0%;
+  }
+  .how-it-works-text {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .pointer-main-text {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .pointer-main-text > h5 {
+    font-size: 15px;
+  }
+  .pointer-main-text > p {
+    font-size: 9px;
+  }
+}

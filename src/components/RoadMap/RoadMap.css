@@ -46,3 +46,14 @@
 .roadmap-illustration > img {
   width: 80%;
 }
+@media (max-width: 768px) {
+  .roadmap-container {
+    padding: 20px;
+  }
+  .roadmap-main-text > h3 {
+    font-size: 25px;
+  }
+  .roadmap-illustration > img {
+    width: 100%;
+  }
+}
