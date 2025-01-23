@@ -80,4 +80,12 @@
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
+  .first-blend {
+    top: 60%;
+  }
+  .hero-page-button {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
 }
