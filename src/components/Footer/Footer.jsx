@@ -28,15 +28,21 @@ const Footer = () => {
             </button>
           </div>
           <div className="footer-socials">
-            <a href="##">
-              <FaXTwitter />
-            </a>
-            <a href="##">
-              <FaDiscord />
-            </a>
-            <a href="##">
-              <FaTelegram />
-            </a>
+            <div>
+              <a href="##">
+                <FaXTwitter />
+              </a>
+            </div>
+            <div>
+              <a href="##">
+                <FaDiscord />
+              </a>
+            </div>
+            <div>
+              <a href="##">
+                <FaTelegram />
+              </a>
+            </div>
           </div>
           <div className="footer-copyright">
             <p>© {currentYear} RIPPLECAT. All rights reserved.</p>
