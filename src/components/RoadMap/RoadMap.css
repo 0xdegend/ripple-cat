@@ -1,3 +1,48 @@
 .roadmap-container {
   padding: 50px;
+  position: relative; /* Ensure proper positioning for pseudo-element */
+  background: url("../../assets/images/heropage-grid.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.roadmap-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 14, 17, 0.82); /* Adjust color and opacity */
+  z-index: -1; /* Place below the content */
+}
+.roadmap-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roadmap-main-text > h3 {
+  color: #fef42e;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  background: linear-gradient(to bottom, #ffda1f, #f2b000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.roadmap-illustration {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmap-illustration > img {
+  width: 80%;
 }
