@@ -32,3 +32,21 @@
   text-decoration: none;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .navbar-container {
+    background: rgba(17, 14, 17, 1);
+  }
+  .navbar-logo > a > img {
+    width: 30px;
+  }
+  .navbar-container {
+    padding: 20px;
+  }
+  .navbar-links ul {
+    gap: 10px;
+  }
+  .navbar-socials ul {
+    gap: 10px;
+  }
+}

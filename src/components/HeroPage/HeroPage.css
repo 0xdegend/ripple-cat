@@ -30,9 +30,6 @@
   text-align: center;
 }
 
-.hero-page-text > h2 {
-}
-
 .gradient-text {
   font-size: 70px;
   font-weight: bold;
@@ -73,4 +70,14 @@
   width: 80% !important;
   display: block;
   margin: auto;
+}
+
+@media (max-width: 767px) {
+  .gradient-text {
+    font-size: 40px;
+    background: linear-gradient(180deg, #fff 0%, #a58b52 15%, transparent 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
 }

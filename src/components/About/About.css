@@ -66,4 +66,8 @@
     font-size: 11px;
     margin-bottom: 30px;
   }
+  .about-illustration > img {
+    display: block;
+    margin: auto;
+  }
 }
