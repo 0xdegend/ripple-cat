@@ -47,7 +47,8 @@
 
 @media (max-width: 767px) {
   .contract-input > input {
-    width: 240px;
+    width: 100%;
+    font-size: 12px;
   }
   .contract-container {
     margin-top: -20px;
