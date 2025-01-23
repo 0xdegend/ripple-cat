@@ -34,3 +34,26 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .tokenomics-container {
+    padding: 20px;
+  }
+  .tokenomics-main-text > h3 {
+    font-size: 25px;
+  }
+  .tokenomics-details {
+    flex-direction: column;
+  }
+  .tokenomics-illustration {
+    width: 100%;
+    display: flex;
+  }
+
+  .tokenomics-illustration > img {
+    width: 70%;
+    right: 0%;
+    margin: auto;
+    position: relative;
+  }
+}
