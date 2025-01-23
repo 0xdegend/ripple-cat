@@ -57,3 +57,12 @@
 .ant-collapse > .ant-collapse-item:last-child {
   border-radius: 15px !important;
 }
+
+@media (max-width: 767px) {
+  .faq-container {
+    padding: 20px;
+  }
+  .faq-main-text > h3 {
+    font-size: 30px;
+  }
+}
