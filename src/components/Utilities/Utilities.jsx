@@ -17,7 +17,7 @@ const Utilities = () => {
               <div>
                 <img src={gigaBot} alt="" />
               </div>
-              <div className="utilities-main-text">
+              <div className="utility-main-text">
                 <h5>GIGA BOT</h5>
               </div>
               <p>
@@ -30,7 +30,7 @@ const Utilities = () => {
               <div>
                 <img src={gigaStake} alt="" />
               </div>
-              <div className="utilities-main-text">
+              <div className="utility-main-text">
                 <h5>GIGA STAKE</h5>
               </div>
 
@@ -44,7 +44,7 @@ const Utilities = () => {
               <div>
                 <img src={gigaWallet} alt="" />
               </div>
-              <div className="utilities-main-text">
+              <div className="utility-main-text">
                 <h5>GIGA WALLET</h5>
               </div>
 
@@ -58,7 +58,7 @@ const Utilities = () => {
               <div>
                 <img src={gigaMetaVerse} alt="" />
               </div>
-              <div className="utilities-main-text">
+              <div className="utility-main-text">
                 <h5>GIGA METAVERSE</h5>
               </div>
               <p>
