@@ -91,3 +91,34 @@
   font-family: "Sora", sans-serif;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 30px;
+  }
+  .footer-details {
+    flex-direction: column;
+  }
+  .footer-illustration > img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .footer-input {
+    flex-direction: column;
+  }
+  .footer-input > input {
+    width: 100%;
+  }
+  .footer-main-text > h4 {
+    font-size: 16.5px;
+  }
+  .footer-copyright p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .footer-socials > a {
+    text-align: center;
+  }
+}
