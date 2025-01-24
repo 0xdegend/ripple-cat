@@ -3,7 +3,7 @@ import roadMapIllustration from "../../assets/images/roadmap-illustration.png";
 import "./RoadMap.css";
 const RoadMap = () => {
   return (
-    <div className="roadmap-container">
+    <div className="roadmap-container" id="roadmap">
       <div className="roadmap-details">
         <div className="roadmap-main-text">
           <h3>#Roadmap</h3>

@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import rippleCat from "../../assets/images/ripple-cat.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
 import "./NavBar.css";
 const NavBar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 0) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
   return (
-    <div className="navbar-container">
+    <div className={isSticky ? "navbar-container, sticky" : "navbar-container"}>
       <div className="navbar-details">
         <div className="navbar-logo">
           <a href="##" className="navbar-logo-link">
@@ -16,19 +32,19 @@ const NavBar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="##" className="navbar-link">
+              <AnchorLink href="#about" className="navbar-link">
                 About
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a href="##" className="navbar-link">
+              <AnchorLink href="#roadmap" className="navbar-link">
                 Roadmap
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a href="##" className="navbar-link">
+              <AnchorLink href="#faq" className="navbar-link">
                 FAQs
-              </a>
+              </AnchorLink>
             </li>
           </ul>
         </div>

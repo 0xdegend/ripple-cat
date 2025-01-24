@@ -1,6 +1,9 @@
 .faq-container {
   padding: 50px;
 }
+.faq-details {
+  margin-top: 50px;
+}
 
 .faq-main-text > h3 {
   color: #fef42e;
@@ -64,5 +67,8 @@
   }
   .faq-main-text > h3 {
     font-size: 30px;
+  }
+  .faq-details {
+    margin-top: 80px;
   }
 }

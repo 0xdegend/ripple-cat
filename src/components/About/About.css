@@ -1,5 +1,6 @@
 .about-container {
   padding: 50px;
+
   position: relative; /* Ensure proper positioning for pseudo-element */
   background: url("../../assets/images/heropage-grid.svg");
   background-size: cover;
@@ -19,6 +20,7 @@
   z-index: -1; /* Place below the content */
 }
 .about-details {
+  margin-top: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;

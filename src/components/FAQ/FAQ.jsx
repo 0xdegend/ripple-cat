@@ -5,7 +5,7 @@ import { AiOutlineUp, AiOutlineDown } from "react-icons/ai";
 import { items } from "../../utils/FaqData";
 const FAQ = () => {
   return (
-    <div className="faq-container">
+    <div className="faq-container" id="faq">
       <div className="faq-details">
         <div className="faq-main-text">
           <h3>#Frequently Asked Questions</h3>
