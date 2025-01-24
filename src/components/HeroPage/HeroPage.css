@@ -83,9 +83,13 @@
   .first-blend {
     top: 60%;
   }
+  .hero-page-text > p {
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
   .hero-page-button {
     display: block;
-    margin: auto;
+    margin: 30px auto;
     margin-bottom: 30px;
   }
 }
