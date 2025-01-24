@@ -127,4 +127,7 @@
   .footer-blend {
     right: 0%;
   }
+  .footer-input > button > img {
+    width: 140px;
+  }
 }

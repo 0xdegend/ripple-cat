@@ -48,12 +48,16 @@
 @media (max-width: 767px) {
   .contract-input > input {
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .contract-container {
     margin-top: -20px;
   }
   .contract-details {
     flex-direction: column;
+  }
+  .contract-button > button > img {
+    width: 120px;
+    margin-top: 10px;
   }
 }
